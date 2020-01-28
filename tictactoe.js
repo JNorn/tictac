@@ -440,20 +440,20 @@ function displayWinner() {
 
   const resultContainer = document.querySelector('#results');
   //const header = document.createElement('img');
-  const header1 = document.createElement('h1');
+  const header = document.createElement('h1');
   if (winner === 'x') {
     //header.src = 'human.png';
-    header1.textContent = 'Wins!';
+    header.textContent = 'You Win!';
   } else if (winner === 'o') {
     //header.src = 'computer.jpg';
-    header1.textContent = 'Wins!';
+    header.textContent = 'Computer Wins!';
   } else {
     //header.src = 'tie.jpg';
     header.width = 500;
-    header1.textContent = "It's a tie!";
+    header.textContent = "It's a tie!";
   }
   //resultContainer.appendChild(header);
-  resultContainer.appendChild(header1);
+  resultContainer.appendChild(header);
 
   // Remove remaining event listeners
   for (const box of freeBoxes) {
