@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+Skip to content
+Search or jump to…
 
-You can use the [editor on GitHub](https://github.com/JNorn/jnorn.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@JNorn 
+JNorn
+/
+jnorn.github.io
+1
+00
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+jnorn.github.io/Tic-Tac-Toe.html
+@JNorn JNorn Add files via upload
+c6e4364 16 seconds ago
+28 lines (22 sloc)  787 Bytes
+  
+<!DOCTYPE html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Jordan's UNBEATABLE Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./tictactoe.css">
+    <script src="./tictactoe.js" defer=""></script>
+  </head>
+  <body>
+  	<h1>Jordan's UNBEATABLE Tic-Tac-Toe</h1>
+  	<div id="grid">
+      <div data-index="0"></div>
+      <div data-index="1"></div>
+      <div data-index="2"></div>
 
-### Markdown
+      <div data-index="3"></div>
+      <div data-index="4"></div>
+      <div data-index="5"></div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      <div data-index="6"></div>
+      <div data-index="7"></div>
+      <div data-index="8"></div>
+    </div>
+    <div id="refresh"><button onClick="window.location.reload();">Try Again!</button></div>
+    <div id="results"></div>
+  
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JNorn/jnorn.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body></html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
