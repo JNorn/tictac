@@ -439,20 +439,20 @@ function displayWinner() {
   const winner = getWinner();
 
   const resultContainer = document.querySelector('#results');
-  const header = document.createElement('img');
+  //const header = document.createElement('img');
   const header1 = document.createElement('h1');
   if (winner === 'x') {
-    header.src = 'human.png';
+    //header.src = 'human.png';
     header1.textContent = 'Wins!';
   } else if (winner === 'o') {
-    header.src = 'computer.jpg';
+    //header.src = 'computer.jpg';
     header1.textContent = 'Wins!';
   } else {
-    header.src = 'tie.jpg';
+    //header.src = 'tie.jpg';
     header.width = 500;
     header1.textContent = "It's a tie!";
   }
-  resultContainer.appendChild(header);
+  //resultContainer.appendChild(header);
   resultContainer.appendChild(header1);
 
   // Remove remaining event listeners
